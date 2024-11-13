@@ -44,7 +44,7 @@ public class MovieTicketPriceCalculator {
     if (startMatineeTime.isAfter(endMatineeTime)) {
       throw new IllegalArgumentException(
           "matinee start time cannot come after end time");
-    }
+    } 
   }
 
   /**
